@@ -36,7 +36,7 @@ import os
 from glob import glob
 import site 
 
-if 'BOARD' not in os.environ or os.environ['BOARD'] != 'Pynq-Z1':
+if 'BOARD' not in os.environ or os.environ['BOARD'] != 'Pynq-Z2':
     print("Only supported on a Pynq Z1 Board")
     exit(1)
 
